@@ -60,8 +60,8 @@ public class Client
 [System.Serializable]
 public class UserData
 {
-#nullable enable
-    public string? address;
-    public string? name = null;
-    public int? points;
+
+    public string address;
+    public string name;
+    public int points;
 }
